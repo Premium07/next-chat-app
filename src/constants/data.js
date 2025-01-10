@@ -6,12 +6,12 @@ export const navlinks = [
   },
   {
     id: 2,
-    path: "/about",
-    page: "About",
+    path: "/forums",
+    page: "Forums",
   },
   {
     id: 3,
-    path: "/contact",
-    page: "Contact",
+    path: "/chat",
+    page: "Chat",
   },
 ];
