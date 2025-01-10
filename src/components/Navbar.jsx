@@ -1,6 +1,7 @@
 "use client";
 
 import { navlinks } from "@/constants/data";
+import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -35,6 +36,10 @@ const Navbar = () => {
               </Link>
             );
           })}
+
+          <div>
+            <UserButton />
+          </div>
         </div>
         <button
           className="lg:hidden block"

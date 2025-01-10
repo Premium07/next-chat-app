@@ -5,3 +5,9 @@ export default function Home() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "Home - Lets Chat",
+  description:
+    "Lets Chat helps you to connect new people and communicate around globally.",
+};
