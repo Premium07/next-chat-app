@@ -24,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 fixed top-0 left-0 w-full z-50">
+    <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  w-full ">
       <div className="container mx-auto px-4 lg:px-10 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
@@ -41,7 +41,7 @@ const Navbar = () => {
               </Link>
             ))}
 
-            <div className="ml-4">
+            <div className="ml-4 flex items-center justify-center">
               <UserButton />
             </div>
           </div>
