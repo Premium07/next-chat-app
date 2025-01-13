@@ -2,6 +2,7 @@
 
 import { navlinks } from "@/constants/data";
 import { UserButton } from "@clerk/nextjs";
+import { MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 // import { MessageCircle } from "lucide-react";
@@ -28,7 +29,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-10 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            {/* <MessageCircle className="h-6 w-6 text-white" /> */}
+            <MessageCircle className="h-6 w-6 text-white" />
             <span className="font-bold text-xl text-white">Lets Chat</span>
           </Link>
 

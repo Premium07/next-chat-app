@@ -1,3 +1,5 @@
+import { Shield, Users, Zap } from "lucide-react";
+
 export default function Home() {
   const ChatIllustration = () => (
     <svg viewBox="0 0 400 300" className="w-full h-full">
@@ -87,7 +89,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 hover:transform hover:-translate-y-1 transition duration-300">
             <div className="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-              {/* <Zap className="h-6 w-6 text-white" /> */}
+              <Zap className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">
               Lightning Fast
@@ -100,7 +102,7 @@ export default function Home() {
 
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 hover:transform hover:-translate-y-1 transition duration-300">
             <div className="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-              {/* <Shield className="h-6 w-6 text-white" /> */}
+              <Shield className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">
               Secure Chats
@@ -113,7 +115,7 @@ export default function Home() {
 
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 hover:transform hover:-translate-y-1 transition duration-300">
             <div className="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-              {/* <Users className="h-6 w-6 text-white" /> */}
+              <Users className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">
               Group Chats
