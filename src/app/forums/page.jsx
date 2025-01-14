@@ -7,11 +7,11 @@ import React from "react";
 const Forums = () => {
   return (
     <section className="container mx-auto min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-      <div className="py-10 h-full">
-        <h2 className="text-center font-bold text-2xl text-white">
+      <div className="py-3 lg:py-5 h-full">
+        <h2 className=" text-center font-semibold lg:font-bold lg:text-2xl text-white">
           Discussion Forums
         </h2>
-        <div className="w-full grid grid-cols-3 gap-4 p-5 mt-5">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 p-5 mt-2 lg:mt-5">
           {topics.map((topic, index) => {
             return (
               <div

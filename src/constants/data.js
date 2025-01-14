@@ -22,21 +22,21 @@ export const topics = [
     img: "/python.webp",
     description:
       "Lets discuss about Python knowledge with latest tech Artificial Intelligence.",
-    slug: "python",
+    slug: "python-chat",
   },
   {
     text: "JavaScript",
     img: "/js.webp",
     description:
       "Share your JavaScript knowledge and get help with web development.",
-    slug: "javascript",
+    slug: "javascript-chat",
   },
   {
     text: "React",
     img: "/react.webp",
     description:
       "Everything about React ecosystem, components, and best practices.",
-    slug: "react",
+    slug: "react-chat",
   },
   {
     text: "Java",
@@ -50,13 +50,13 @@ export const topics = [
     img: "/nodejs.jpg",
     description:
       "Backend development with Node.js, Express, and related technologies.",
-    slug: "nodejs",
+    slug: "nodejs-chat",
   },
   {
     text: "TypeScript",
     img: "/ts.jpg",
     description:
       "Learn and share TypeScript tips, types, and advanced concepts.",
-    slug: "typescript",
+    slug: "typescript-chat",
   },
 ];

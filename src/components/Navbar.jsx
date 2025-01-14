@@ -4,12 +4,9 @@ import { UserButton } from "@clerk/nextjs";
 import { MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-// import { useUser } from "@clerk/nextjs";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const user = useUser();
-  // console.log(user.user?.id);
 
   useEffect(() => {
     const handleResize = () => {
