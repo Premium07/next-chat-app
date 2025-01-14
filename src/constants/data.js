@@ -22,41 +22,41 @@ export const topics = [
     img: "/python.webp",
     description:
       "Lets discuss about Python knowledge with latest tech Artificial Intelligence.",
-    slug: "python-discuss",
+    slug: "python",
   },
   {
     text: "JavaScript",
     img: "/js.webp",
     description:
       "Share your JavaScript knowledge and get help with web development.",
-    slug: "javascript-discuss",
+    slug: "javascript",
   },
   {
     text: "React",
     img: "/react.webp",
     description:
       "Everything about React ecosystem, components, and best practices.",
-    slug: "react-discuss",
+    slug: "react",
   },
   {
     text: "Java",
     img: "/java.jpg",
     description:
       "Discussion forum for Java programming language and JVM ecosystem.",
-    slug: "java-discuss",
+    slug: "java",
   },
   {
     text: "Node.js",
     img: "/nodejs.jpg",
     description:
       "Backend development with Node.js, Express, and related technologies.",
-    slug: "nodejs-discuss",
+    slug: "nodejs",
   },
   {
     text: "TypeScript",
     img: "/ts.jpg",
     description:
       "Learn and share TypeScript tips, types, and advanced concepts.",
-    slug: "typescript-discuss",
+    slug: "typescript",
   },
 ];

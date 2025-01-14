@@ -1,14 +1,15 @@
 "use client";
-
 import { navlinks } from "@/constants/data";
 import { UserButton } from "@clerk/nextjs";
 import { MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-// import { MessageCircle } from "lucide-react";
+// import { useUser } from "@clerk/nextjs";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const user = useUser();
+  // console.log(user.user?.id);
 
   useEffect(() => {
     const handleResize = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  w-full ">
+    <nav className="relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  w-full ">
       <div className="container mx-auto px-4 lg:px-10 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
@@ -71,7 +72,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-white/10 backdrop-blur-lg border-t border-white/20">
+        <div className="lg:hidden absolute top-full left-0 w-full z-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  border-t border-white/20">
           <div className="container mx-auto px-4">
             <ul className="py-4 space-y-4">
               {navlinks.map((link) => (

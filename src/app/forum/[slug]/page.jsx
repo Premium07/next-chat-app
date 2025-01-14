@@ -1,6 +1,6 @@
-import React from "react";
+import ChatForum from "@/components/ChatForums";
 
-export default async function ({ params }) {
-  const slug = await params.slug;
-  return <div>{slug}</div>;
+export default async function Page({ params }) {
+  const slug = (await params).slug;
+  return <ChatForum slug={slug} />;
 }
